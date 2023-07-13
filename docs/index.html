@@ -11,26 +11,30 @@
   <link href="css/STYLE.css" rel="stylesheet" type="text/css" /> 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=kanit">
   <style>
     html,
 .banner{
-    background-color: #FD7094; 
+    background-color: #fe83a2; 
     max-width: 100%;
     text-align: center;
+    font-family: kanit;
 }
 .banner__content{ 
     max-width: 100%;
     margin: 0 auto; 
     display: flex;
     text-align: center;
+    font-family: kanit;
 }
 .banner__text{ 
     flex-grow: 10;
     line-height: 12px;
-    font-family: Cambria, Cochin, Georgia, kanit, 'Times New Roman', serif;
     text-align: center;
     max-width: 100%;
     font-size: 24PX;
+    font-family: kanit;
 }
 body { 
   background-repeat:no-repeat;
@@ -38,13 +42,14 @@ body {
   margin: 0;
   max-width: 100%;
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 24PX;
+  font-family: kanit;
 }
 .dropdown{
   margin: 0;
   max-width: 100%;
   text-align: center;
+  font-family: kanit;
 }
 .red{
   border-style: double;
@@ -54,6 +59,30 @@ body {
    margin: auto;
    border-radius: 12px;
    border-width: 6px;
+}
+
+text{
+    line-height: 12px;
+    font-size: 20px;
+    font-family: kanit;
+}
+
+.button{ 
+background-color: transparent;
+border: none;
+font-family: kanit;
+}
+
+@media screen and (max-width: 300px) {
+    main {
+        flex-direction: column;
+    }
+    aside {
+        width: 100%;
+    }
+    article {
+        width: 100%;
+    }
 }
 
 
